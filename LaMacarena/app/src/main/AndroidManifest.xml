@@ -4,12 +4,25 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_lamacarena"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/ic_lamacarena_round"
         android:supportsRtl="true"
         android:theme="@style/SplashTheme">
-        <activity android:name=".MainActivity" android:theme="@style/AppTheme.Login"></activity>
+        <activity android:name=".ActivityCar">
+
+        </activity>
+        <activity android:name=".ActivityEditCount"></activity>
+        <activity android:name=".ActivityCount" />
+        <activity
+            android:name=".ActivityProducts"
+            android:label="Nuestros Productos"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".ActivityRegisterClient" />
+        <activity android:name=".ActivityRecoverpass" />
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.Login" />
         <activity android:name=".ActivitySplash">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
